@@ -18,7 +18,7 @@ def main():
 
 
 class E2Sysex:
-    def __init__(self, port='electribe2 sampler electribe2 s', midi=None):
+    def __init__(self, port='your electribe port name', midi=None):
         logging.debug('Initialise SysEx')
         
         if midi is not None:
